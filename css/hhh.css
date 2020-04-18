@@ -1,0 +1,54 @@
+.login-box {
+	width: 320px;
+	height: 320px;
+	background: black;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px, 10px;
+
+}
+
+.login-box .corpo{
+	width: ;
+	height: ;
+	border-radius: ;
+	position: absolute;
+	top: -150px;
+	left: calc(-100% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input(type="text"),
+.login-box input(type="password") {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 10px
+}
+
